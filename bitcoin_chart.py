@@ -19,6 +19,6 @@ high = candlestick_data["Price"]["max"],
 low = candlestick_data["Price"]["min"], 
 close=candlestick_data["Price"]["last"])])
 
-fig.update_layout(xaxis_rangeslider_visible=False, xaxis_title="Date", yaxis_title="Price (USD $)", title = "Bitcoin Candlestick Chart Over Past 90 Days")
+fig.update_layout(xaxis_rangeslider_visible=False, xaxis_title="Date", yaxis_title="Price (USD $)", title = "Bitcoin Candlestick Chart Over Past 90 Days. <br>It's my first Project on my Data Science's Journey. <br>Powered by Victor Codes. <br><a>victorcodes.tech</a>")
 
 plot(fig, filename ="bitcoin_candlestick_graph.html")
